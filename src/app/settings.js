@@ -1,0 +1,4 @@
+
+        import * as brainsatplay from 'brainsatplay.js'
+        
+        export const settings = {"name":"Thread","devices":["EEG","HEG"],"author":"","description":"","categories":["WIP"],"instructions":"","display":{"production":false,"development":false},"graph":{"nodes":[{"class":brainsatplay.plugins.algorithms.Thread,"id":"704212","params":{}},{"class":brainsatplay.plugins.data.Sine,"id":"121218","params":{"amplitude":1,"frequency":1,"phase":0,"rate":250,"center":0,"scale":1}},{"class":brainsatplay.plugins.debug.Debug,"id":"252430","params":{}}],"edges":[{"source":"121218","target":"704212"},{"source":"704212","target":"252430"}]},"editor":{"parentId":"brainsatplay-studio","show":true,"style":"\n            position: block;\n            z-index: 9;\n            "}};
